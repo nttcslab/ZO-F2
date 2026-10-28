@@ -1,3 +1,3 @@
-# ZO-F2: Low-variance Fisher preconditioner via bilinear estimation for zeroth-order optimization
+# ZO-F2: Low-Variance Fisher Preconditioner via Bilinear Estimation for Zeroth-Order Optimization
 
 The source code will be public when NeurIPS 2026 starts (Dec. 6th, 2026).
