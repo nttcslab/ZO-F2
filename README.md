@@ -1,6 +1,6 @@
 # ZO-F2: Low-Variance Fisher Preconditioner via Bilinear Estimation for Zeroth-Order Optimization
 
-All source code necessary to perform the experiments described in the above titled manuscript presented at NeurIPS 2026.
+All source code necessary to perform the experiments described in [the above titled manuscript presented at NeurIPS 2026](https://neurips.cc/virtual/2026/loc/sydney/poster/153380).
 
 ## Directories
 ```
