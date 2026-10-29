@@ -1,0 +1,8 @@
+2026-04-25 05:45:32.935912
+{'seed': 2, 'device': 'cuda', 'cuda_id': 1, 'logdir': '../log', 'suffix': 'copying_cond/', 'dataset': 'copying', 'save_file': None, 'load_file': None, 'optimizer': 'Adam', 'lr': 0.0001, 'epochs': 100, 'batch_size': 100, 'zoo': {'num_vectors': 20, 'mu': 0.001, 'diff': 'central', 'max_dim': 453, 'vectors': 'F2', 'pre': {'update_type': 'solve_clip', 'alpha': 3e-05, 'gamma': 0.1, 'tau': 0.5, 'Tud': 100, 'warm_up': 0, 'initFscale': 1, 'report_error': False}}, 'num_features': 32, 'cnn': {'ch': 8, 'linear_width': 64}}
+# ZO optimization, #parameters = 3168, #blocks = 7, resulting_max = 453, resulting_min = 450
+epoch	time	loss	grad_n	error	num_u_p	num_sam	m_cond	tr_loss	te_acc	n_pertu	step	feval	memory
+1	123.18	1.01535	6.2e+02	0.00000	6	190	3.6e+04	0.71758	0.76492	20	600	24600	0.28
+2	246.33	0.66269	1.0e+02	0.00000	12	190	4.3e+05	0.61921	0.80017	20	1200	49200	0.37
+3	369.33	0.59013	8.0e+01	0.00000	18	190	3.3e+06	0.56579	0.81843	20	1800	73800	0.37
+4	492.26	0.54878	8.4e+01	0.00000	24	190	6.0e+07	0.53379	0.82777	20	2400	98400	0.37
